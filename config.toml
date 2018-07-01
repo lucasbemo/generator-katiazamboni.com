@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://localhost:1313" #without ending slash
+baseurl = "/" #without ending slash
 languageCode = "pt-br"
 title = "Katia Zamboni"
 theme = "hugo-identity-theme"
@@ -44,13 +44,13 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     # Avatars can be written to images/avatars/
     avatar = "katia-hair.png"
     position = "Especialísta em Língua Portuguesa/Italiana"
-    livesIn = "[São Paulo, Brasil](#https://www.guichevirtual.com.br/blog/wp-content/uploads/2017/01/Mercado-Municipal-Curiosidades-sobre-S%C3%A3o-Paulo.jpg)"
-    scope = [
-        " ",
-        "Ultimamente eu venho",
-        "escrevendo sobre Línguas no meu blog [Katia Zamboni](http://katiazamboni.com)",
-        # "compartilhando minhas pinturas pintando em [Katia Zamboni](http://katiazamboni.com)",
-      ]
+    livesIn = "[São Paulo, Brasil](https://pt.wikipedia.org/wiki/S%C3%A3o_Paulo_(cidade))"
+    # scope = [
+    #     " ",
+    #     "Ultimamente eu venho",
+    #     "escrevendo sobre Línguas no meu blog [Katia Zamboni](http://katiazamboni.com)",
+    #     # "compartilhando minhas pinturas pintando em [Katia Zamboni](http://katiazamboni.com)",
+    #   ]
 #     biography = """Jane Powers is plain awesome. He worked at Corp A and B and is open for new work.  
 # Even new lines and other markdown styles are working within the bio."""
 
@@ -104,22 +104,22 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
   # Social settings
   # You may change these with your social links or add others
 
-  [[params.social]]
-    title = "Instagram"
-    icon = "fa-instagram"
-    link = "#"
-    target = "_blank"
+  # [[params.social]]
+  #   title = "Instagram"
+  #   icon = "fa-instagram"
+  #   link = "#"
+  #   target = "_blank"
 
   [[params.social]]
     title = "Facebook"
     icon = "fa-facebook"
-    link = "#"
+    link = "https://www.facebook.com/katia.dejesuszamboni"
     target = "_blank"
 
   [[params.social]]
     title = "Linkedin"
     icon = "fa-linkedin"
-    link = "#"
+    link = "https://www.linkedin.com/in/k%C3%A1tia-de-jesus-zamboni-moura-3a9a856a/"
     target = "_blank"
 
   # Footer settings
