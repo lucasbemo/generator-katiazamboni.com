@@ -103,10 +103,10 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
   # Social settings
   # You may change these with your social links or add others 
 
-  [[params.social]]
-    title = "Blog"
-    icon = "fa-rss"
-    link = "https://miocuoreitaliano.com/"
+  # [[params.social]]
+  #   title = "Blog"
+  #   icon = "fa-rss"
+  #   link = "https://miocuoreitaliano.com/"
 
   [[params.social]]
     title = "Portifolio"
